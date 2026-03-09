@@ -19,7 +19,6 @@ body {
   padding: 30px 80px 40px;
   min-height: 720px;
   max-height: 800px;
-  height: 100vh;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
@@ -79,7 +78,6 @@ text-decoration: underline;
   font-weight: 400;
   color: #2F80ED;
   display: block;
-  font-weight: normal;
   font-size: 58px;
   line-height: 72px;
 
@@ -95,27 +93,18 @@ text-decoration: underline;
   font-style: normal;
 }
 
-.header__image img {
-  width: 646px;
-  height: 568px;
-}
-
-.header__hours {
-  bottom: 40px;
-  left: 80px;
-  font-size: 16px;
-  text-align: left;
-  font-family: "Inter", Arial, sans-serif;
-}
-
-.header__hours p {
+.header__paragraph {
   margin: 0;
 }
 
-.header__hours-title {
-  font-weight: 600;
-  margin-bottom: 4px;
+.header__image {
+ width: 646px;
+ height: 568px;
+ position: absolute;
+ top: 124px;
+ right: 80px;
 }
+
 
 .header__footer {
   position: absolute;
@@ -172,8 +161,8 @@ text-decoration: underline;
 }
 
 .recipes__iframe {
-  width: 480px;
-  height: 273px;
+  width: 100%;
+  aspect-ratio: 16 / 9;
   border: none;
 }
 
