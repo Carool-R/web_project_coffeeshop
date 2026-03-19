@@ -107,21 +107,66 @@
       </div>
     </section>
 
-        <!---- AQUI VAI O FORMULÁRIO AINDA -->
-        <section class="reservation" id="reservation">
-          <div class="reservation__container">
-            <h2 class="reservation__title">Reservar uma mesa</h2>
+    <section class="reservation" id="reservation">
+      <div class="reservation__container">
+         <h2 class="reservation__title">Reservar uma mesa</h2>
 
-            <!--formulário -->
-            <div class="reservation__placeholder">
-              <p>
-                Faça sua reserva presencialmente em nosso balcão ou entre em contato 
-                pelas nossas redes sociais.
-              </p>
-            </div>
-          </div>
-        </section>
-       </main>
+      <form class="reservation__form">
+  <fieldset class="form__fieldset">
+
+    <label class="form__label">
+      Nome *
+      <input
+        type="text"
+        class="form__input"
+        placeholder="Nome"
+        required>
+    </label>
+
+    <label class="form__label">
+      Número de convidados *
+      <input
+        type="number"
+        class="form__input"
+        placeholder="1-8"
+        required>
+    </label>
+
+    <label class="form__label">
+      Data e hora *
+      <input
+        type="datetime-local"
+        class="form__input"
+        required>
+    </label>
+
+    <label class="form__label">
+      Seu e-mail *
+      <input
+        type="email"
+        class="form__input"
+        placeholder="email@email.com"
+        required>
+    </label>
+
+    <button class="form__button" type="submit">
+      Reservar uma mesa
+    </button>
+
+    <label class="form__checkbox-label">
+      <input
+        type="checkbox"
+        class="form__checkbox"
+        required>
+      Eu concordo com os termos de uso
+    </label>
+
+            </fieldset>
+          </form>    
+        </div>
+      </div>
+   </section>
+  </main>
 
       <footer class="footer" id="footer">
   <div class="footer__columns">
