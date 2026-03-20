@@ -67,7 +67,7 @@ text-decoration: underline;
   font-weight: 500;
   font-size: 58px;
   line-height: 72px;
-  margin-top: 80px;
+  margin-top: 80;
   font-style: normal;
   max-width: 709px;
 }
@@ -87,7 +87,7 @@ text-decoration: underline;
   font-family: "Noto Serif", Arial, sans-serif;
   font-size: 20px;
   line-height: 30px;
-  margin-top: 28px;
+  margin-top: 8px;
   max-width: 683px;
   font-weight:normal;
   font-style: normal;
