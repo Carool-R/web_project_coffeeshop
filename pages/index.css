@@ -61,9 +61,6 @@ text-decoration: underline;
   align-items: flex-start;
 
 }
-.header__title--hidden {
-  display: none;
-}
 
 .header__title {
   font-family: "Inter", Arial, sans-serif;
