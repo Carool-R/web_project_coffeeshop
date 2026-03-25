@@ -23,6 +23,7 @@ body {
   display: flex;
   flex-direction: column;
   position: relative;
+  height: 100vh;
 }
 
 
@@ -55,20 +56,13 @@ color: #2F80ED;
 text-decoration: underline;
 }
 
-.header__content {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  margin-top: 80px;
-
-}
 
 .header__title {
   font-family: "Inter", Arial, sans-serif;
   font-weight: 500;
   font-size: 58px;
   line-height: 72px;
-  margin-top: 0;
+  margin-top: 183px;
   font-style: normal;
   max-width: 709px;
 }
